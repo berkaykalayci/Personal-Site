@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css " />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="shortcut icon" type="image/png" href="/image/DSD.png"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h2><a href="index.html"> <img src="/image/main.png" alt="logo"></a></h2>
+        </div>
+        <ul class="nav_links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div id="menu_bar">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+      <div class="section_title">
+        <!-- <h2>CONTACT</h2> -->
+      </div>
+      <p>
+        We are here to bring your project to life and listen to you. Fill out
+        the form or email us now. We look forward to working with you on your
+        future projects!
+      </p>
+      <div class="inner_contact">
+        <div class="child_contact">
+          <img src="./image/contact.png" alt="" />
+        </div>
+
+        <div class="child_contact">
+          <form action="https://formspree.io/f/mzbndydp" method="post">
+            <input required placeholder="Name" type="text" name="fullname" />
+            <input required placeholder="E-mail" type="text" name="email" />
+            <input placeholder="Phone" type="text" name="phone" />
+            <textarea
+              placeholder="Message"
+              name="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Send!" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <!-- <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">search</button>
+      </div> -->
+      <div class="share">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/berkaykalayci_/"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/berkaykalayci/"
+          class="fab fa-linkedin"
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Berkay Kalayci</span> | all rights reserved
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
